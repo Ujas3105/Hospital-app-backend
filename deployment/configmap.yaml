@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hospital-backend-config
+data:
+  DB_HOST: "digitalsvc1.mysql.database.azure.com" 
+  DB_PORT: "3306"
+  DB_NAME: "dental_management_system"
+
