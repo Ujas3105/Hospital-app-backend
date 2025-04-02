@@ -67,4 +67,4 @@ jobs:
              
             sleep 20
 
-            kubectl get pod
+            kubectl get pod
