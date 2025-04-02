@@ -22,7 +22,7 @@ FROM openjdk:8-jdk-alpine
 WORKDIR /app
 
 # Copy the built JAR file from the build stage
-COPY --from=build /app/target/dental-management-system-0.0.1-SNAPSHOT.jar app.jar
+COPY --from=build /app/target/Hippa-database-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose the application's port
 EXPOSE 8080
